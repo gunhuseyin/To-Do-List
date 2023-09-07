@@ -1,6 +1,9 @@
-* {
+*,
+*::before,
+*::after {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,13 +11,12 @@ body {
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    box-sizing: border-box;
-    font-size: 1rem;
-    height: 100vh;
+    font-size: 16px;
+   
 }
 
 .container {
-    max-width: 600px;
+    max-width: 500px;
     padding: 20px;
     margin: 30px auto;
 }
@@ -27,13 +29,15 @@ header {
     justify-content: start;
     align-items: center;
     margin-bottom: 20px;
+    text-align: center;
 
 }
 
 header h1 {
-    margin-left: 20px;
-    font-size: 1.5rem;
+    font-weight: 300;
+    margin-left: 5px;
 }
+
 
 .form-input {
     width: 100%;

@@ -31,8 +31,8 @@ header {
 }
 
 header h1 {
-    margin-left: 0.9rem;
-    font-size: 2.5rem;
+    margin-left: 20px;
+    font-size: 1.5rem;
 }
 
 .form-input {

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/note.png" alt="">
+            <h1 class="title">To Do List</h1>
+        </header>
+        <form  id="item-form" >
+            <div class="form-control">
+                <input 
+                type="text"
+                class="form-input"
+                name="text-input"
+                placeholder="Enter Items"
+                id="text-input">
+            </div>
+            <div class="form-control">
+                <button class="btn">
+                    <i class="fas fa-solid fa-plus"></i> Add İtem
+                </button>
+            </div>
+        </form>
+        <div>
+            <input type="text"
+             name="filter"
+             class="form-input-filter"
+             placeholder="Filter Items"
+             id="filter">
+        </div>
+        <div class="selections">
+            <button class="btn-select border-line">All</button>
+            <button class="btn-select">Complated</button>
+            <button class="btn-select">Uncomplated</button>
+        </div>
+        <ul class="list" id="list">
+            <!-- <li>
+                <input type="checkbox" name="check" class="check" >
+                Do your Homewor
+                <button class="btn-link">
+                    <i class="fas fa-close"></i>
+                </button>
+            </li>
+            <li>
+                <input type="checkbox" name="check" class="check" id="">
+                Do your Homewor
+                <button class="btn-link">
+                    <i class="fas fa-close"></i>
+                </button>
+            </li>
+            <li>
+                <input type="checkbox" name="check" class="check" id="">
+                Do your Homewor
+                <button class="btn-link">
+                    <i class="fas fa-close"></i>
+                </button>
+            </li>
+            <li>
+                <input type="checkbox" name="check" class="check" id="">
+                Do your Homewor
+                <button class="btn-link">
+                    <i class="fas fa-close"></i>
+                </button>
+            </li> -->
+        </ul>
+        
+        <button class="btn-clear">Clear All</button>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
